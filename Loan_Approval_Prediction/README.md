@@ -81,13 +81,15 @@ The models were evaluated using the following metrics:
   - **F1-Score**: 0.82 for approved loans
   - **Precision**: 0.85, **Recall**: 0.78
 
-### Confusion Matrix Heatmaps
+### Confusion Matrix Heatmaps (v2.1)
 
 **False Negative Rate (FNR)**
+
 ![Confusion Heatmap FNR](reports/confusion_heatmap_fnr.png)
 *This heatmap shows the model's performance in identifying true negatives and false negatives. A lower false negative rate is desirable.*
 
 **False Positive Rate (FPR)**
+
 ![Confusion Heatmap FPR](reports/confusion_heatmap_fpr.png)
 *This heatmap illustrates the model's ability to distinguish true positives from false positives. A lower false positive rate indicates better precision.*
 
