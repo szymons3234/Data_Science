@@ -81,7 +81,7 @@ The models were evaluated using the following metrics:
   - **F1-Score**: 0.82 for approved loans
   - **Precision**: 0.85, **Recall**: 0.78
 
-### Confusion Matrix Heatmaps
+### Confusion Matrix Heatmaps (v2.1)
 
 **False Negative Rate (FNR)**
 
