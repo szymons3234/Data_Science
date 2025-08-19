@@ -81,6 +81,24 @@ The models were evaluated using the following metrics:
   - **F1-Score**: 0.82 for approved loans
   - **Precision**: 0.85, **Recall**: 0.78
 
+## Visualizations
+
+### Permutation Importance (v2)
+
+**Decision Tree**
+![Permutation Importance for Decision Tree](reports/perm_importance_dtree.png)
+
+**Random Forest**
+![Permutation Importance for Random Forest](reports/perm_importance_rfc.png)
+
+### SHAP Summary Plots (v2)
+
+**Decision Tree**
+![SHAP Summary for Decision Tree](reports/shap_summary_dtree.png)
+
+**Random Forest**
+![SHAP Summary for Random Forest](reports/shap_summary_rfc.png)
+
 ## Conclusion
 
 Key insights from the analysis:
@@ -93,6 +111,11 @@ Key insights from the analysis:
 
 3. **Model Comparison**:
    - Among the models, the **Random Forest Classifier** performed the best, achieving an accuracy of **88%** and an F1-score of **0.87** for approved loans.
+
+## Business Summary (v2)
+
+Based on the analysis, the most significant factors influencing loan approval are **CIBIL score**, **annual income**, and the **loan amount**. Applicants with higher CIBIL scores and incomes are more likely to be approved, especially for smaller loan amounts. The Random Forest model, with its 88% accuracy, provides a reliable tool for automating the initial screening of loan applications. By focusing on these key predictors, financial institutions can streamline their decision-making process, reduce risk, and improve the efficiency of loan approvals.
+
 
 ---
 
