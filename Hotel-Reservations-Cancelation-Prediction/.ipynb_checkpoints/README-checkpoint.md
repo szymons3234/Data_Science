@@ -84,14 +84,6 @@ The models were evaluated using the following metrics:
   - **F1-Score**: 0.85 for canceled reservations
   - **Precision**: 0.81, **Recall**: 0.89
 
-### Profit Curve Analysis (v2.1)
-
-The profit curve illustrates the model's financial impact by showing the total profit generated at different classification thresholds.
-
-![Profit Curve](reports/profit_curve.png)
-
-The curve helps identify the optimal threshold that maximizes profit. The peak of the curve indicates the threshold where the trade-off between the costs of false positives (e.g., unnecessarily offering discounts) and the benefits of true positives (e.g., preventing a cancellation) is most favorable. This analysis provides a practical way to translate model performance into tangible business value.
-
 ## Why a pipeline? (v2)
 
 Using a pipeline in this project provides three key benefits:
