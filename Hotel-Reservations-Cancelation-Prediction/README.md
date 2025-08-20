@@ -84,6 +84,16 @@ The models were evaluated using the following metrics:
   - **F1-Score**: 0.85 for canceled reservations
   - **Precision**: 0.81, **Recall**: 0.89
 
+## Why a pipeline? (v2)
+
+Using a pipeline in this project provides three key benefits:
+
+1.  **Reproducibility**: The pipeline ensures that every step of data processing and model training is performed in the same order and manner. This eliminates the risk of human error and guarantees that the results are fully reproducible.
+
+2.  **No filter leakage**: All preprocessing steps (e.g., feature scaling) are fitted only on the training data and then used to transform the test data. This prevents information from the test set from "leaking" into the training process, which could lead to artificially inflated model performance.
+
+3.  **Preprocessing Consistency**: The pipeline integrates all data processing stages into a single object. This ensures that the same preprocessing applied during model training is automatically used for predictions on new, unseen data, ensuring consistency and simplifying model deployment.
+
 ## Conclusion
 
 Key insights from the analysis:
